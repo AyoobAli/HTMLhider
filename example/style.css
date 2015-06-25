@@ -1,0 +1,65 @@
+
+        * {
+            -webkit-font-smoothing: antialiased !important;
+            text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+        }
+        html, body {
+            font-family: monospace;
+            font-size: 14px;
+            background-color: #f3f3f3;
+            margin: 0px;
+            padding: 0px;
+            color: #191919;
+            width: 100%;
+            height: 100%;
+            display: table;
+        }
+        a:link {color: #496283; text-decoration: none;}
+        a:visited {color: #496283; text-decoration: none;}
+        a:hover {color: #758da8; text-decoration: none;}
+        a:active {color: #758da8; text-decoration: none;}
+        div.container {
+            height: 98%;
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+        }
+        div.section {
+            width: 988px;
+            background-color: #FFFFFF;
+            border: 1px solid #e3e3e3;
+            display: inline-block;
+            text-align: left;
+        }
+        div.sectitle {
+            background-color: #EDEDED;
+            font-family: "Open Sans";
+            font-size: 36px;
+            border-color: #e3e3e3;
+            padding: 0 20px;
+        }
+        div.secfooter {
+            color: #808080;
+            text-align: center;
+            background-color: #EDEDED;
+            font-size: 12px;
+            border-color: #e3e3e3;
+            padding: 0 20px;
+            height: 40px;
+            line-height: 40px;
+            vertical-align: middle;
+        }
+        div.seccontent { margin: 50px 5px; }
+        .btl { border-top-left-radius: 5px; }
+        .btr { border-top-right-radius: 5px; }
+        .bbl { border-bottom-left-radius: 5px; }
+        .bbr { border-bottom-right-radius: 5px; }
+        .bl { border-left-width: 1px; border-left-style: solid; }
+        .br { border-right-width: 1px; border-right-style: solid; }
+        .bt { border-top-width: 1px; border-top-style: solid; }
+        .bb { border-bottom-width: 1px; border-bottom-style: solid; }
+        .ba { border-width: 1px; border-style: solid; }
+        .tal { text-align: left; }
+        .tar { text-align: right; }
+        .tac { text-align: center; }
+        .taj { text-align: justify; }
